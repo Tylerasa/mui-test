@@ -24,7 +24,7 @@ export default function Container(props) {
     <SortableContext
       id={id}
       items={items}
-      strategy={rectSortingStrategy}
+      strategy={verticalListSortingStrategy}
     >
         <DataTable id={id} items={items} />
 
